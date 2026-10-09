@@ -1,33 +1,60 @@
-# 🏛️ Inteligência de Mercado - Nur Mah Museum
-**Desenvolvido por:** Laura Vieira
+# Nur Mah Museum: Market Intelligence
 
-##  Sobre o Projeto
-Este projeto apresenta uma análise exploratória e preditiva sobre a saúde financeira e a distribuição geográfica de instituições culturais nos Estados Unidos. O objetivo é extrair inteligência dos dados públicos do IMLS para apoiar a estratégia de captação de recursos e parcerias do **Nur Mah Museum**.
+## Overview
 
-##  Principais Insights e Recomendações
-Através da análise de dados, foram identificadas três frentes estratégicas:
-1. **Metas Realistas:** A captação de recursos deve usar a receita mediana dos Museus de Arte como linha de base (baseline).
-2. **Parcerias Estratégicas:** Museus de Ciência e Zoos operam com receitas muito superiores. Sugere-se criar exposições híbridas para atrair fundos desses setores.
-3. **Expansão Geográfica:** Focar campanhas de marketing em estados altamente populosos (como CA e NY), mas buscando regiões com menor saturação de concorrência direta.
+This project presents an exploratory and predictive analysis of the financial health and geographic distribution of cultural institutions in the United States. The goal is to extract insights from public IMLS data to support the fundraising and partnership strategy of the **Nur Mah Museum**.
 
-##  Modelagem Preditiva
-Foi desenvolvido um modelo de Machine Learning utilizando o algoritmo **Random Forest Regressor** para estimar a receita de uma instituição com base no seu tipo e estado. 
-O modelo serve como um ponto de partida (baseline) e atesta que o sucesso financeiro de um museu depende de variáveis externas ausentes no dataset (como investimento em marketing, turismo local e prestígio).
+## Key Insights and Recommendations
 
-##  Tecnologias Utilizadas
-* **Linguagem:** Python 3
-* **Manipulação de Dados:** Pandas, NumPy
-* **Visualização:** Matplotlib, Seaborn
-* **Machine Learning:** Scikit-Learn (Random Forest, OneHotEncoder)
-* **Ambiente:** Jupyter Notebook (VS Code)
+The analysis identified three strategic fronts:
 
-##  Estrutura dos Ficheiros
-* `analise_nur_mah.ipynb` -> O notebook principal contendo toda a análise, gráficos e modelo de Machine Learning.
-* `data/museums.csv` -> A base de dados original utilizada no projeto.
-* `README.md` -> Documentação do projeto.
+1. **Realistic goals:** fundraising targets should use the median revenue of Art Museums as a baseline.
+2. **Strategic partnerships:** Science Museums and Zoos operate with much higher revenues. Creating hybrid exhibitions is suggested to attract funding from these sectors.
+3. **Geographic expansion:** marketing campaigns should focus on highly populated states (such as CA and NY), while also looking for regions with less direct competition.
 
-##  Como Executar o Projeto
-1. Certifique-se de ter o Python instalado.
-2. Abra o ficheiro `analise_nur_mah.ipynb` no VS Code ou Jupyter.
-3. A primeira célula do notebook garantirá a instalação das bibliotecas necessárias.
-4. Clique em **Run All** (Rodar Tudo) para visualizar as análises e os gráficos gerados.
+## Predictive Modeling
+
+A machine learning model based on a **Random Forest Regressor** was built to estimate an institution's revenue from its type and state.
+
+The model works as a baseline and shows that a museum's financial success depends on external variables that are missing from the dataset, such as marketing investment, local tourism and prestige.
+
+## Tech Stack
+
+- **Language:** Python 3
+- **Data manipulation:** Pandas, NumPy
+- **Visualization:** Matplotlib, Seaborn
+- **Machine learning:** Scikit-Learn (Random Forest, OneHotEncoder)
+- **Environment:** Jupyter Notebook (VS Code)
+
+## Project Structure
+
+```
+.
+├── nur_mah_analysis.ipynb   # Main notebook: analysis, charts and machine learning model
+├── data/
+│   └── museums.csv          # Original dataset
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3 installed
+- VS Code or Jupyter
+
+### Running the project
+
+1. Clone the repository.
+2. (Optional) Install the dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Open `nur_mah_analysis.ipynb` in VS Code or Jupyter.
+4. The first cell of the notebook installs the required libraries.
+5. Click **Run All** to see the analyses and the generated charts.
+
+## Author
+
+Laura Vieira ([@LaurVieira](https://github.com/LaurVieira))
